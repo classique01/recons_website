@@ -16,7 +16,7 @@ import ReviewJournal from './pages/ReviewJournal';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/recons_website">
       <div className="min-h-screen flex flex-col bg-gray-100">
         <Header />
         <main className="flex-grow">
@@ -31,6 +31,7 @@ function App() {
             <Route path="/rfp" element={<RFP />} />
             <Route path="/bp" element={<BuddyProgram />} />
             <Route path="/rj" element={<ReviewJournal />} />
+            <Route path="*" element={<Home />} />
           </Routes>
         </main>
 
