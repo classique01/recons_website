@@ -53,7 +53,19 @@ const FAQ = () => {
     },
     {
       question: "Is there a Fed Challenge Team?",
-      answer: "Yes! For more information, reach out to Professor Alex Hohmann (hohmann@economics.rutgers.edu)."
+      answer: (
+        <>
+          Yes! For more information, check out the{" "}
+          <a 
+            href="https://economics.rutgers.edu/academics/undergraduate/fed-challenge" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-black underline font-medium hover:text-gray-600 transition-colors"
+          >
+            Rutgers Fed Challenge page
+          </a>.
+        </>
+      )
     },
     {
       question: "I've heard about REL. When do applications open?",

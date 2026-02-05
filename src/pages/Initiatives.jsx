@@ -72,9 +72,9 @@ const Initiatives = () => {
       links: [{ text: "Policython", url: "/policython" }]
     },
     {
-      title: "Directed Reading Program",
-      description: "Facilitating structured self-study through mentorship and guidance from graduate students.",
-      links: [{ text: "Learn More", url: "/drp" }]
+      title: "Econometrics Fellowship",
+      description: "A specialized program focused on advanced causal inference methods in economic research.",
+      links: [{ text: "Coming Fall 2026", url: "" }]
     },
     {
       title: "RECONS Review (Newsletter)",

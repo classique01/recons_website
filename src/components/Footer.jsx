@@ -8,10 +8,10 @@ const Footer = () => {
 
           {/* Left icons */}
           <div className="flex gap-6">
-            <a href="https://discord.gg/xUhkyw9vRV" aria-label="Discord" className="hover:text-[#d2ac89] transition-colors">
+            <a href="https://discord.gg/xUhkyw9vRV"  target="_blank" aria-label="Discord" className="hover:text-[#d2ac89] transition-colors">
               <FaDiscord className="h-5 w-5" />
             </a>
-            <a href="https://www.instagram.com/rutgersrecons/" aria-label="Instagram" className="hover:text-[#d2ac89] transition-colors">
+            <a href="https://www.instagram.com/rutgersrecons/" target="_blank"  aria-label="Instagram" className="hover:text-[#d2ac89] transition-colors">
               <FaInstagram className="h-5 w-5" />
             </a>
           </div>
@@ -23,7 +23,7 @@ const Footer = () => {
 
           {/* Right icons */}
           <div className="flex gap-6">
-            <a href="https://www.linkedin.com/company/rutgers-economics/" aria-label="LinkedIn" className="hover:text-[#d2ac89] transition-colors">
+            <a href="https://www.linkedin.com/company/rutgers-economics/" target="_blank" aria-label="LinkedIn" className="hover:text-[#d2ac89] transition-colors">
               <FaLinkedin className="h-5 w-5" />
             </a>
             <a href="mailto:economicsrutgers@gmail.com" aria-label="Email" className="hover:text-[#d2ac89] transition-colors">
